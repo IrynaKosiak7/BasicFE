@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 70%;
+    padding: 20px;
+    box-shadow: 0 0 15px 0 #3263CD;
+    margin:  20px auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    background-color: #87CEFA;
+    color: white;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 80px;
+
+    width: 40%;
+    text-align: center; 
+}
+input, label, textarea,
+select{
+    display: block;
+    width: 100%;
+
+}
+input, label, p, textarea, select{
+    margin: 10px 0;
+}
+input,textarea,select{
+    border: 1px solid lightgray;
+    padding: 8px;
+    border-radius: 8px;
+}
+.chk input,
+.chk label,
+.radio input,
+.radio label {
+    width: auto;
+    display: inline;
+    color: black;
+}
+label, p{
+    color: gray;
+}
+button{
+    background-color: #3263CD;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 10%;
+    padding: 10px;
+}
+.btn{
+    text-align: center;
+}
+input:focus{
+    color: blue;
+    border-color: blue;
+}
+p:hover, label:hover{
+    color: blue;
+}

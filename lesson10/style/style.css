@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 337px 10px 315px;
+    max-width: 1920px;
+}
+.header-soc a{
+    text-decoration: none;
+    margin-left: 56px;
+}
+main{
+    padding: 84px 309px 83px 316px;
+    display: flex;
+    background-color: var(--accent-2, #4FBFA5);
+    align-items: center;
+    justify-content: space-between;
+}
+.main-describtion {
+    color: var(--white, #FFF); 
+    font-family: ABeeZee;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 150%;
+}
+.main-describtion h1{
+    font-size: 48px; 
+    margin-bottom: 20px;
+}
+.main-describtion p {
+    font-size: 14px;
+    margin: 20px 0 40px;
+    width: 416px;
+}
+.main-describtion button{
+    color: var(--white, #FFF);
+    font-family: ABeeZee;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    background-color: #00868A;
+    padding: 15px 25px 14px 25px;
+    border: none;
+}
+section{
+    padding: 146px 309px 162px 312px;
+}
+section h2{
+    color: var(--accent-1, #00868A);
+    text-align: center;
+    font-family: ABeeZee;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 60px;
+
+}
+.section-card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-item{
+    margin-right: 24px;
+    background-color: #00868A;
+}
+.elem{
+    display: flex;
+    padding: 25px 30px;
+    background-color: #00868A;
+    align-items: center;
+}
+.elem p{
+    color: var(--white, #FFF);
+    font-family: ABeeZee;
+    font-size: 21px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 150%;
+    width: 181px;
+}
+.elem button{
+    /* padding: 20px 15px; */
+    background-color: #00868A;
+    border: 1px solid white;
+    outline: #FFF;
+    width: 50px;
+    height: 40px;
+}
+.position{
+    position: absolute;
+    left: 30px;
+    top: 31px;
+    color: #FFF;
+    font-family: ABeeZee;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-flex;
+    padding: 9px 15px 10px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #4FBFA5;
+}
+last-linie {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 6px 337px 10px 315px;
+    max-width: 1920px;
+}

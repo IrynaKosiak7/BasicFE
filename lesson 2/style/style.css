@@ -1,0 +1,36 @@
+p{
+    /* border width ширина границы */
+    /* border-width: 2px; */
+    /*border-style стиль */
+    /* border-style: solid; */
+    /* border-color цвет*/
+    /* border-color: blue; */
+    /*border-radius округление*/
+    /* border-radius: 15px; */
+    /* краткий формат */
+    border: 2px solid blue; 
+    /* border-top: 10px solid red;
+    border-bottom: 4px solid green;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 500px; */
+    /* margin: 100px;
+    margin: 80px 50px; */
+    /* 1 - верх-низ,2- лево-право */
+    /* margin: 30px 50px 70px; */
+    /* 1 - верх,  2- лево-право 3-низ*/
+    /* margin: 100px 20px 130px 40px; */
+    /* 1 - top,  2-richt, 3-bottom, 4-left*/
+
+    /* margin-top: 50px;
+    margin-right: 30px;
+    margin-bottom: 80px;
+    margin-left: 10px; */
+    /* padding: 50px;
+    padding: 10px 20px 40px 60px; background-color: chartreuse; */
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    margin: 10px auto;
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+.box-item{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: absolute;
+    left: 0;
+    top: 0; 
+    z-index: 2; 
+}
+.box-item2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(221, 18, 96);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 8;
+ }
+.box-item3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(201, 221, 18);
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 8;
+}
+.box-item4 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(234, 231, 236);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+} 
+
+ /* пример для использования псевдо-елемента  */
+/.box-item {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    position: absolute;
+}
+
+.box-item:nth-child(1){
+    left: 0;
+    top: 0;
+}
+
+.box-item:nth-child(2){
+    right: 0;
+    top: 0;
+}
+
+.box-item:nth-child(3){
+    left: 0;
+    bottom: 0;
+}
+
+.box-item:nth-child(4){
+    right: 0;
+    bottom: 0;
+} 
+
+ .box-item {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+
+}
+
+.box1 {
+    position: relative;
+    left: 200px;
+    bottom: 0px;
+    background-color: rgb(171, 226, 43);
+    z-index: 2;
+}
+
+.box2 {
+    position: relative;
+    right:0;
+    top: 0;
+    z-index: 1;
+    background-color: chocolate;
+}
+
+.box3 {
+    position: relative;
+    right: 0;
+    top: 0;
+    z-index: 3;
+    background-color: antiquewhite;
+}
+
+.box4 {
+    position: relative;
+    right: 0;
+    top: 0;
+    z-index: 4;
+} 

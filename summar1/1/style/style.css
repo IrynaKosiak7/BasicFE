@@ -1,0 +1,29 @@
+/* .list1{
+    list-style: georgian inside none;
+    /* list-style-type: georgian;
+    list-style-position: inside;
+    list-style-image: none; 
+    color: blueviolet;*/
+/* table{
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+table, td{
+    border: 1px solid black;
+}
+table, th{
+    border: 1px solid black;
+    text-align: center;
+} */
+.styled_text{
+    text-align: justify;
+    color: rgb(196, 122, 12);
+    font-size: 25px;
+    text-decoration: underline;
+    font-weight: bolder;
+    line-height: 50px;
+    font-style: italic;
+    text-indent: 20px;
+    
+}

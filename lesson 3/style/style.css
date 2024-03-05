@@ -1,0 +1,65 @@
+*/{
+    margin: 0;
+    padding: 0;
+}
+div{
+    border: 2px solid black; 
+
+    color: whitesmoke;
+    padding: 30px; 
+    margin: 20px;
+}
+.work{
+    background-color: brown;
+}
+.work h2{
+    text-align: right;
+}
+.hobby{
+    background-color: blueviolet;
+}
+.friends{
+    background-color: green;
+}
+.friends h2{
+    text-align: center;
+    color: aqua;
+    border: 2px solid;
+}
+.friends img {
+    width: 200px;
+    height: 300px;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    border: 6px solid green;
+    border-radius: 50px;
+    margin: 150px;
+    background-color: azure;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}   
+img{
+    width: 200 px;
+    height: 200px;
+}
+.soc div{
+    border: none;
+    padding: 0;
+     margin: 0;
+    background-color: brown;
+}
+.soci {
+    width: 350px;
+    height: 200px;
+}
+.socN{
+    width: 450px;
+    height: 200px;
+}
+.socN{
+    width: 450px;
+    height: 200px;
+}

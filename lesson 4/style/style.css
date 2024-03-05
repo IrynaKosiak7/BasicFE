@@ -1,0 +1,10 @@
+.list{
+    list-style-type: armenian;
+    list-style-type: upper-roman;
+    list-style-position: outside;
+    list-style-image: url(../media/Image20231130101446.png);
+}
+table{
+    border-collapse: collapse;
+    background-color: rgb(247, 238, 231)243, 238);
+}
