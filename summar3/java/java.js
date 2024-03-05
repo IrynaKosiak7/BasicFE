@@ -92,7 +92,6 @@
 // function getSum(num1, num2){
 //     return num1 + num2;
 // }
-
 // console.log(getSum(1, 2));
 
 
@@ -108,13 +107,9 @@
 //  else if (value1 > value2) {
 //     console.log('стульев не хватает');
 // }
-
-
 // for (let i = 1; i < 10; i++) {
 //     console.log(i);
 // }
-
-
 // for (let i = 10; i < 100; i++) {
 //     if (i % 5 ===0) {
 //         console.log(i);
@@ -130,7 +125,6 @@
 //         console.log(i);
 //     }
 // }
-
 
 // let numbers = [0, 13, -2, 5, 20, 23, 67, -56, 18, 0.25, -39, 37, 120]
 // for (let i = 0; i < numbers.length; i++) {
@@ -199,8 +193,6 @@
     // let discounted_price =arr[i].price - (arr[i].price * arr[i].discount /100) 
 //     console.log(`${arr[i].title} (${arr[i].price- (arr[i].price*arr[i].discount/100)})`);
 // }
-
-
 function checkNumber(num1, num2) {
     if (num1 %2 ===0 && num2 %2 ===0) {
         return num1 * num2;
